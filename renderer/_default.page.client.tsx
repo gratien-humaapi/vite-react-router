@@ -1,5 +1,9 @@
 export { render }
 
+export const clientRouting = true;
+
+export const hydrationCanBeAborted = true;
+
 import { hydrateRoot } from 'react-dom/client'
 import { PageShell } from './PageShell'
 import type { PageContextClient } from './types'
